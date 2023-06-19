@@ -1,0 +1,214 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 45px;
+    /* background-color: rgba(0, 0, 0, 0.3); */
+    background-color: transparent;
+    /* background-color: black; */
+    opacity: 0.5;
+    padding: 10px;
+    height: 86px;
+    width: 98.9vw;
+    overflow-x: hidden;
+}
+
+#logo{
+    position: absolute;
+    width: 121px;
+    height: 56px;
+    left: 38px;
+    top: 14px;
+    cursor: pointer;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+#contact{
+    /* position: absolute; */
+    width: 180px;
+    height: 48px;
+    left: 1199px;
+    top: 18px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 150%;
+    background-color: #FF4700;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 0 15px;
+}
+
+#menu{
+    /* position: absolute; */
+    width: 50px;
+    height: 50px;
+    left: 1399px;
+    top: 20px;
+    color: #FF4700;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 275;
+    font-size: 24px;
+    line-height: 150%;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    cursor: pointer;
+    margin-right: 25px;
+    /* padding-right: 50px; */
+}
+
+.links{
+    position: absolute;
+    width: 450px;
+    min-height: 89vh;
+    right: 0px;
+    top: 75px;
+    background-color: white;
+    opacity: 1;
+    list-style: none;
+    z-index: 1000;
+}
+
+.sub-links{
+    position: relative;
+    width: 490px;
+    height: 125px;
+    padding: 0 25px;
+    padding-top: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 1%;
+    /* identical to box height, or 144px */
+    cursor: pointer;
+    display: flex;
+    /* align-items: center; */
+    justify-content: flex-start;
+    color: #000000;
+    cursor: pointer;
+}
+
+.sub-talk{
+    position: relative;
+    display: inline-block;
+    top: -555px;
+    left: 30px;
+    width: 259px;
+    height: 60px;
+    list-style: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #000000;
+    text-align: left;
+    cursor: pointer;
+}
+
+.sub-about{
+    position: relative;
+    display: inline-block;
+    top: -440px;
+    left: 30px;
+    width: 259px;
+    height: 60px;
+    list-style: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #000000;
+    text-align: left;
+    cursor: pointer;
+}
+
+.sub-light{
+    position: relative;
+    display: inline-block;
+    top: -305px;
+    left: 30px;
+    width: 259px;
+    height: 60px;
+    list-style: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #000000;
+    text-align: left;
+    cursor: pointer;
+}
+
+.sub-calc{
+    position: relative;
+    display: inline-block;
+    top: -185px;
+    left: 30px;
+    width: 259px;
+    height: 60px;
+    list-style: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #000000;
+    text-align: left;
+    cursor: pointer;
+}
+.sub-finder{
+    position: relative;
+    display: inline-block;
+    top: -55px;
+    left: 30px;
+    width: 259px;
+    height: 60px;
+    list-style: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #000000;
+    text-align: left;
+    cursor: pointer;
+}
+
+a:link{
+    color: black;
+}
